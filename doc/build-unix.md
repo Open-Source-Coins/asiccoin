@@ -56,10 +56,19 @@ for Ubuntu 12.04:
 
 	sudo apt-get install libboost-all-dev
 
- db4.8 packages are available [here](https://launchpad.net/~bitcoin/+archive/bitcoin).
-
  Ubuntu precise has packages for libdb5.1-dev and libdb5.1++-dev,
  but using these will break binary wallet compatibility, and is not recommended.
+
+for Debian 7 (Wheezy) and later:
+ The oldstable repository contains db4.8 packages.
+ Add the following line to /etc/apt/sources.list,
+ replacing [mirror] with any official debian mirror.
+
+	deb http://[mirror]/debian/ oldstable main
+        
+To enable the change run
+
+	sudo apt-get update
 
 for other Ubuntu & Debian:
 
