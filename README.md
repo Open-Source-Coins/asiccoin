@@ -2,13 +2,13 @@ Asiccoin - ASC, a SHA-256 crypto-currency, is based on Bitcoin version 0.8, with
 
 The following specifications are implemented:
 
-- 30 seconds block time
-- Difficulty retargets every 60 blocks (approximately 30 minutes). 
-- mining payout will be halved every 3 months (259,200 blocks)
+- 30 second block time
+- Difficulty retargets every 60 blocks (approximately 30 minutes)
+- Mining payout starts at 1028 coins then halved every 3 months (259,200 blocks)
 - Expected total mined coins will be 675,925,530 coins (not including 1 coin/block maintenance)
 - 4 confirmations for transaction (2 minutes)
 - 70 confirmations for minted blocks
-- The minimum payout will be maintained at 1 coin/block.
+- The minimum payout will be maintained at 1 coin/block
 
 Random bonus blocks:
 
@@ -21,7 +21,7 @@ Ports:
 - Connection: 13434
 - RPC: 13435
 
-The official website is: asiccoin.info.
+The official Asiccoin website: http://asiccoin.info
 
 PLEASE NOTE:- This is a fork of the original Asiccoin repository which was removed. This repository also contains enhancements implementented by myself.
 
